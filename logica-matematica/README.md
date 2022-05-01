@@ -1,0 +1,48 @@
+# Argomenti
+
+- **Lezione 1**:
+  - Introduzione
+- **Lezione 2**:
+  - Introduzione alla Logica Proposizionale
+  - La logica delle Proposizioni Atomiche
+  - L’identità e le sue regole
+- **Lezione 3**:
+  - L’identità e le sue regole di inferenza
+  - I connettivi «e», «o», «non»
+  - Intermezzo matematico
+- **Lezione 4**:
+  - Esempio di interpretazione
+  - Equivalenza logica
+  - Conseguenza logica e tautologica
+  - Le regole per ragionare con «e» e «o»
+- **Lezione 5**:
+  - Le regole per ragionare con «e» e «o»
+  - L’ assurdo e le sue regole
+  - Regole per «non». Dimostrazione per assurdo
+- **Lezione 6**:
+  - TAUT CON e ANA CON
+  - Condizionali  
+  - Le regole per «&rarr;» e «&harr;»  
+  - Contrapposizione e Modus Tollens
+- **Lezione 7**:
+  - Teorema di validità e completezza
+  - Il calcolo Fitch proposizionale ${F_{T}}$: ripasso ed esempi
+  - Conseguenze tautologiche notevoli
+- **Lezione 8**:
+  - Introduzione alla Logica del Primo Ordine
+  - Quantificatori
+- **Lezione 9**:
+  - Sintassi: formule ben formate
+  - (Occorrenze di) variabili libere e vincolate
+  - Semantica: L-strutture
+  - Intermezzo matematico (reprise)
+  - Semantica: Interpretazione dei termini chiusi
+- **Lezione 10**:
+  - Semantica: Interpretazione dei termini chiusi
+  - Semantica: Interpretazione degli enunciati
+  - Le quattro forme aristoteliche
+  - Traduzione passo-passo
+- **Lezione 11**:
+  - Strutture ed interpretazioni su TW: Esempi
+  - Modelli e contromodelli
+  - Conseguenza logica: in FO, in TAUT, in un contesto
