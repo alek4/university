@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/.gitpod.yml": true,
+    "**/.gitpod.Dockerfile": true,
+    "**/.git": true,
+    "**/.gitignore": true,
+  }
+}
