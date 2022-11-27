@@ -1,0 +1,3 @@
+[submodule "prog2-esercitazioni"]
+	path = prog2-esercitazioni
+	url = https://github.com/alek4/prog2-esercitazioni.git
