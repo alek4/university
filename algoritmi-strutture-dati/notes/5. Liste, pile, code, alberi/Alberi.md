@@ -25,3 +25,30 @@ Le varie tipologie di visita di un albero binario sono dei modi per "scorrere" t
 	-   Visitare l'albero in ordine simmetrico (inorder traversal): si visita prima il figlio sinistro, poi il nodo corrente e infine il figlio destro.
 	-   Visitare l'albero in ordine anticipato (preorder traversal): si visita prima il nodo corrente, poi il figlio sinistro e infine il figlio destro.
 	-   Visitare l'albero in ordine posticipato (postorder traversal): si visita prima il figlio sinistro, poi il figlio destro e infine il nodo corrente.
+
+### Altri tipi di alberi
+
+Gli alberi (con radice) possono avere un numero arbitrario di figli (e di sottoalberi), e ognuno di questi nodi (eccetto la radice) ha un unico padre.
+Un esempio potrebbe essere l'indice di un libro, con i vari capitoli e sottocapitoli.
+
+Una definizione ricorsiva per gli alberi con radice potrebbe essere:
+
+>Un albero (con radice) e':
+>	- la struttura vuota
+>oppure
+>	- un nodo a cui sono associati $k \geq 0$ alberi 
+
+grado di un nodo = \#figli
+grado dell'albero = max grado dei figli
+
+Un albero puo' essere rappresentato in molteplici modi:
+- Una prima rappresentazione statica potrebbe esser etramite il **vettore dei padri**, ovvero un array con i valori contenuti nei nodi e un array con la posizione di ciascun nodo
+- Un'altra rappresentazione statica e' il **vettore dei figli**: un array con i valori contenuti nei nodi e $d$ (grado dell'albero) array contenenti le posizioni dei figli di ogni nodo
+- Una soluzione dinamica invece sono le rappresentazioni collegate:
+	- tramite dei **puntatori ai figli**
+	- oppure tramite una **lista dei fratelli**
+
+### Alberi binari: \#nodi vs altezza
+
+- numero _minimo_ di nodi per alberi di altezza $h$ e' $h + 1$
+
