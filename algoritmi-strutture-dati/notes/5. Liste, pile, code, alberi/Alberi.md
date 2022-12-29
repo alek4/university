@@ -51,4 +51,19 @@ Un albero puo' essere rappresentato in molteplici modi:
 ### Alberi binari: \#nodi vs altezza
 
 - numero _minimo_ di nodi per alberi di altezza $h$ e' $h + 1$
+- numero *massimo* di nodi per alberi di altezza $h$ è $2^{h+1} - 1$
+- numero di nodi $n$: $h+1 \le n \le 2^{h+1}-1$
+- altezza albero $h$: $log_2(n+1)-1 \le h \le n-1$
 
+#### Alberi binari *quasi completi*
+
+Un albero binario è _quasi completo_ quando è completo almeno fino al penultimo livello.
+
+*proprietà*: una albero binario di altezza $h$ è quasi completo se e solo se ogni nodo di profondità $< h - 1$ possiede _entrambi_ i figli.
+
+### Alberi binari _quasi completi_: \#nodi vs altezza
+
+- completo fino ad altezza $h-1$: $2^h-1$ nodi di profondità $\le h-1$
+- nodi di profondità h: almeno 1, al massimo $2^h$
+- numero di nodi $n$: $2^h \le n \lt 2^{h+1}$
+- altezza albero $h$: $h \le log_2(n) \lt h+1$, $h = \lfloor log_2(n) \rfloor$
