@@ -1,0 +1,27 @@
+Gli alberi binari sono un tipo di dato strutturato che consiste in un insieme di nodi organizzati in modo gerarchico. Ogni nodo può avere al massimo due figli, chiamati "figlio sinistro" e "figlio destro". Gli alberi binari sono spesso utilizzati in diverse applicazioni, ad esempio per:
+
+-   Rappresentare strutture di dati gerarchiche, ad esempio il sistema dei file di un computer.
+-   Implementare algoritmi di ricerca e ordinamento.
+-   Rappresentare espressioni algebriche.
+
+Le operazioni più comuni che possono essere eseguite sugli alberi binari sono:
+
+-   Inserimento: è possibile aggiungere nuovi nodi all'albero.
+-   Rimozione: è possibile rimuovere nodi dall'albero.
+-   Ricerca: è possibile cercare un nodo specifico nell'albero.
+-   Visita: è possibile "visitare" tutti i nodi dell'albero in modo sequenziale, ad esempio in ordine "simmetrico" (visita prima il nodo, poi il figlio sinistro, poi il figlio destro), "anticipato" (visita prima il figlio sinistro, poi il nodo, poi il figlio destro) o "differito" (visita prima il figlio sinistro, poi il figlio destro, poi il nodo).
+
+Gli alberi binari possono essere implementati in modo statico o dinamico. Gli alberi binari statici sono creati utilizzando array di dimensione fissa, mentre gli alberi binari dinamici utilizzano l'allocazione dinamica della memoria per creare nodi "al volo" quando necessario.
+
+Esistono diverse varianti degli alberi binari, come ad esempio gli alberi binari di ricerca, che hanno la proprietà di mantenere gli elementi ordinati, o gli alberi rossi-neri, che sono utilizzati per implementare alberi di ricerca bilanciati.
+
+### Visite ad alberi binari
+
+Le varie tipologie di visita di un albero binario sono dei modi per "scorrere" tutti i nodi dell'albero in modo sequenziale, ovvero per visitare ogni nodo una sola volta. Ci sono tre modi principali per visitare gli alberi binari:
+
+1.  Visitare l'albero in ampiezza (**breadth-first** traversal): in questo caso, si visitano prima tutti i nodi di uno stesso livello dell'albero, poi si passa al livello successivo. Ad esempio, se l'albero ha tre livelli, si potrebbe visitare prima tutti i nodi del livello 1, poi tutti quelli del livello 2 e infine tutti quelli del livello 3. La visita in ampiezza è spesso implementata utilizzando una coda per tenere traccia dei nodi da visitare.
+
+2.  Visitare l'albero in profondità (**depth-first** traversal): in questo caso, si visita prima il nodo corrente, poi si scende il più a fondo possibile nell'albero, visitando prima il figlio sinistro e poi quello destro. Quando non ci sono più figli da visitare, si torna indietro (si "risale" l'albero) e si passa al nodo fratello (se esiste). Esistono tre varianti di visita in profondità:
+	-   Visitare l'albero in ordine simmetrico (inorder traversal): si visita prima il figlio sinistro, poi il nodo corrente e infine il figlio destro.
+	-   Visitare l'albero in ordine anticipato (preorder traversal): si visita prima il nodo corrente, poi il figlio sinistro e infine il figlio destro.
+	-   Visitare l'albero in ordine posticipato (postorder traversal): si visita prima il figlio sinistro, poi il figlio destro e infine il nodo corrente.
