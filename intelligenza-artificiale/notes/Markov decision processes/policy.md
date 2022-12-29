@@ -1,3 +1,5 @@
+#intelligenza-artificiale 
+
 In a Markov decision process (MDP), a **policy** is a process that determines what action to take in a given state. It is a mapping from states to actions, indicating what action the agent should take in each state. In other words, a policy defines the behavior of an agent in an MDP.
 
 A policy are deterministic, where it specifies a unique action to take in each state. The goal of an MDP is to find an optimal policy that maximizes some notion of long-term reward. This is typically done using reinforcement learning algorithms, which iteratively improve the policy by learning from the consequences of the actions taken under the current policy.

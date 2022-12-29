@@ -1,0 +1,3 @@
+La macchina di Turing è composta da un nastro infinito su cui sono scritti i simboli dell'alfabeto della macchina, una testina di lettura/scrittura che si sposta lungo il nastro e un insieme di istruzioni che determinano il comportamento della macchina.
+
+La macchina di Turing legge i simboli sulla sua testina di lettura/scrittura uno alla volta e, in base alle istruzioni, può scrivere nuovi simboli, cancellare quelli esistenti o spostare la testina di lettura/scrittura a sinistra o a destra. In questo modo, la macchina di Turing è in grado di eseguire una serie di operazioni sui simboli presenti sul nastro, che rappresentano l'input dell'algoritmo.

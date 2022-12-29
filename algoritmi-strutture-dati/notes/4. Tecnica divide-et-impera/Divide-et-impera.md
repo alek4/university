@@ -1,0 +1,5 @@
+La tecnica "**divide et impera**" è un approccio algoritmico che consiste nel suddividere un problema in sottoproblemi più piccoli (**divide**) e risolverli individualmente (**impera**), prima di combinarli per ottenere la soluzione finale del problema originale.
+
+Questa tecnica viene spesso utilizzata quando il problema originale è troppo complesso o difficile da risolvere direttamente, ma può essere suddiviso in sottoproblemi più semplici che possono essere risolti più facilmente.
+
+Ad esempio, supponiamo di voler ordinare una lista di numeri. Un approccio potrebbe essere quello di suddividere la lista in due sottoliste, ordinare ciascuna di esse separatamente, quindi combinare le due sottoliste ordinate per ottenere la lista finale ordinata. Questo approccio viene spesso chiamato "[[Merge sort]]" ed è un esempio di come la tecnica "divide et impera" può essere utilizzata per risolvere il problema dell'ordinamento di una lista.

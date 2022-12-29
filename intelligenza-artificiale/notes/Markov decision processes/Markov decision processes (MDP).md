@@ -1,3 +1,5 @@
+#intelligenza-artificiale
+
 A [[Markov]] decision process (MDP) is a mathematical framework for modeling decision-making problems with probabilistic outcomes. It is a type of discrete-time stochastic control process, which means that it provides a formalism for describing a decision-making problem in which the agent has to make a sequence of decisions over time, and the outcomes of these decisions are probabilistic.
 
 An MDP is typically defined by a tuple $(S,A,P,R,\gamma)$, where $S$ is a set of states, $A$ is a set of actions, $P$ is the state transition probability matrix, $R$ is the reward function, and $\gamma$ is the discount factor. The elements of the tuple are defined as follows:

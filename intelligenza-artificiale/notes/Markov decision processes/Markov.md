@@ -1,3 +1,5 @@
+#intelligenza-artificiale 
+
 The **Markov property** is a fundamental concept in the theory of Markov processes, which are stochastic processes that have the property that the future is independent of the past given the present. In other words, the future behavior of a Markov process is determined solely by its current state and not by its past history.
 
 The Markov property is named after the Russian mathematician Andrey Markov, who first formulated it in the early 1900s. It is a key property of Markov processes and is used in the study of a wide range of systems, including random walks, queueing systems, and biological systems.
