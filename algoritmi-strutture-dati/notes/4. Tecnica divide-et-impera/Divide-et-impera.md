@@ -1,3 +1,5 @@
+#algoritmi-strutture-dati 
+
 La tecnica "**divide et impera**" è un approccio algoritmico che consiste nel suddividere un problema in sottoproblemi più piccoli (**divide**) e risolverli individualmente (**impera**), prima di combinarli per ottenere la soluzione finale del problema originale.
 
 Questa tecnica viene spesso utilizzata quando il problema originale è troppo complesso o difficile da risolvere direttamente, ma può essere suddiviso in sottoproblemi più semplici che possono essere risolti più facilmente.

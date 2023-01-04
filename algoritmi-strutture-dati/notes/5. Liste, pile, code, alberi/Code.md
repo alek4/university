@@ -1,4 +1,4 @@
-#algoritmi-strutture-dati 
+#algoritmi-strutture-dati  #struttura-dati
 
 Le code (chiamate anche "code FIFO", dall'inglese First In First Out, ovvero "primo entrato, primo uscito") sono un tipo di dato strutturato che permette di memorizzare una sequenza di elementi in modo da poterli recuperare in un ordine specifico. In particolare, le code seguono il principio **FIFO**, ovvero gli elementi vengono inseriti (**enqueue**) e rimossi (**dequeue**) da due estremità diverse, chiamate rispettivamente "testa" e "coda" della pila.
 

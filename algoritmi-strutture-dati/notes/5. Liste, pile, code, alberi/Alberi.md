@@ -1,3 +1,5 @@
+#algoritmi-strutture-dati  #struttura-dati 
+
 Gli alberi binari sono un tipo di dato strutturato che consiste in un insieme di nodi organizzati in modo gerarchico. Ogni nodo può avere al massimo due figli, chiamati "figlio sinistro" e "figlio destro". Gli alberi binari sono spesso utilizzati in diverse applicazioni, ad esempio per:
 
 -   Rappresentare strutture di dati gerarchiche, ad esempio il sistema dei file di un computer.
@@ -55,7 +57,7 @@ Un albero puo' essere rappresentato in molteplici modi:
 - numero di nodi $n$: $h+1 \le n \le 2^{h+1}-1$
 - altezza albero $h$: $log_2(n+1)-1 \le h \le n-1$
 
-#### Alberi binari *quasi completi*
+### Alberi binari *quasi completi*
 
 Un albero binario è _quasi completo_ quando è completo almeno fino al penultimo livello.
 

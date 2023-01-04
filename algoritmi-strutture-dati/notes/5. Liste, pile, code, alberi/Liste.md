@@ -1,4 +1,4 @@
-#algoritmi-strutture-dati 
+#algoritmi-strutture-dati  #struttura-dati
 
 Le liste concatenate sono un tipo di dato strutturato che permette di memorizzare una sequenza di elementi in modo ordinato. Ogni elemento è contenuto in un nodo, che può essere pensato come una "scatola" che contiene sia il valore dell'elemento che un riferimento (chiamato "puntatore") ad un altro nodo. La lista è costituita da una sequenza di nodi disposti in modo da creare una catena di nodi, da cui il nome "liste concatenate".
 

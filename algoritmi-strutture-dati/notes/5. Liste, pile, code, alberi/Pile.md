@@ -1,4 +1,4 @@
-#algoritmi-strutture-dati 
+#algoritmi-strutture-dati  #struttura-dati
 
 Le pile (chiamate anche "pile LIFO", dall'inglese Last In First Out, ovvero "ultimo entrato, primo uscito") sono un tipo di dato strutturato che permette di memorizzare una sequenza di elementi in modo da poterli recuperare in un ordine specifico. In particolare, le pile seguono il principio LIFO, ovvero gli elementi vengono inseriti (push) e rimossi (pop) dalla stessa estremità, chiamata "testa" della pila.
 
