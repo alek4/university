@@ -15,4 +15,4 @@ def ricerca_sequenziale(sequenza, elemento):
   return -1
 ```
 
-L'algoritmo di ricerca sequenziale ha una complessità temporale di **O(n)**, ovvero il numero di elementi della sequenza, quindi è efficiente solo per sequenze di dimensioni relativamente piccole. Inoltre, funziona solo su sequenze ordinate, quindi in caso di sequenze disordinate è necessario prima ordinarle.
+L'algoritmo di ricerca sequenziale ha una complessità temporale di **O(n)**, ovvero il numero di elementi della sequenza, quindi è efficiente solo per sequenze di dimensioni relativamente piccole.

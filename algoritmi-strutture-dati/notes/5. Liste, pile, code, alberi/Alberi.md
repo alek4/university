@@ -8,14 +8,14 @@ Gli alberi binari sono un tipo di dato strutturato che consiste in un insieme di
 
 Le operazioni più comuni che possono essere eseguite sugli alberi binari sono:
 
--   Inserimento: è possibile aggiungere nuovi nodi all'albero.
--   Rimozione: è possibile rimuovere nodi dall'albero.
--   Ricerca: è possibile cercare un nodo specifico nell'albero.
--   Visita: è possibile "visitare" tutti i nodi dell'albero in modo sequenziale, ad esempio in ordine "simmetrico" (visita prima il nodo, poi il figlio sinistro, poi il figlio destro), "anticipato" (visita prima il figlio sinistro, poi il nodo, poi il figlio destro) o "differito" (visita prima il figlio sinistro, poi il figlio destro, poi il nodo).
+-   **Inserimento**: è possibile aggiungere nuovi nodi all'albero.
+-   **Rimozione**: è possibile rimuovere nodi dall'albero.
+-   **Ricerca**: è possibile cercare un nodo specifico nell'albero.
+-   **Visita**: è possibile "visitare" tutti i nodi dell'albero in modo sequenziale, ad esempio in ordine "simmetrico" (visita prima il nodo, poi il figlio sinistro, poi il figlio destro), "anticipato" (visita prima il figlio sinistro, poi il nodo, poi il figlio destro) o "posticipato" (visita prima il figlio sinistro, poi il figlio destro, poi il nodo).
 
 Gli alberi binari possono essere implementati in modo statico o dinamico. Gli alberi binari statici sono creati utilizzando array di dimensione fissa, mentre gli alberi binari dinamici utilizzano l'allocazione dinamica della memoria per creare nodi "al volo" quando necessario.
 
-Esistono diverse varianti degli alberi binari, come ad esempio gli alberi binari di ricerca, che hanno la proprietà di mantenere gli elementi ordinati, o gli alberi rossi-neri, che sono utilizzati per implementare alberi di ricerca bilanciati.
+Esistono diverse varianti degli alberi binari, come ad esempio gli [[Alberi binari di ricerca|alberi binari di ricerca]], che hanno la proprietà di mantenere gli elementi ordinati, o gli alberi rossi-neri, che sono utilizzati per implementare alberi di ricerca bilanciati.
 
 ### Visite ad alberi binari
 
@@ -44,7 +44,7 @@ grado di un nodo = \#figli
 grado dell'albero = max grado dei figli
 
 Un albero puo' essere rappresentato in molteplici modi:
-- Una prima rappresentazione statica potrebbe esser etramite il **vettore dei padri**, ovvero un array con i valori contenuti nei nodi e un array con la posizione di ciascun nodo
+- Una prima rappresentazione statica potrebbe essere tramite il **vettore dei padri**, ovvero un array con i valori contenuti nei nodi e un array con la posizione di ciascun nodo
 - Un'altra rappresentazione statica e' il **vettore dei figli**: un array con i valori contenuti nei nodi e $d$ (grado dell'albero) array contenenti le posizioni dei figli di ogni nodo
 - Una soluzione dinamica invece sono le rappresentazioni collegate:
 	- tramite dei **puntatori ai figli**
@@ -66,6 +66,6 @@ Un albero binario è _quasi completo_ quando è completo almeno fino al penultim
 ### Alberi binari _quasi completi_: \#nodi vs altezza
 
 - completo fino ad altezza $h-1$: $2^h-1$ nodi di profondità $\le h-1$
-- nodi di profondità h: almeno 1, al massimo $2^h$
+- nodi di profondità $h$: almeno 1, al massimo $2^h$
 - numero di nodi $n$: $2^h \le n \lt 2^{h+1}$
 - altezza albero $h$: $h \le log_2(n) \lt h+1$, $h = \lfloor log_2(n) \rfloor$

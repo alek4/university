@@ -10,8 +10,7 @@ function selectionSort(array A[0..n − 1]):
 		swap A[m] with A[k] # sistema il minimo nella sua posizione definita k
 ```
 
-Al passo principale k, k = 0, . . . , n − 1, viene selezionato l’elemento che deve essere collocato  nella posizione k. L’elemento viene collocato in tale posizione, dalla quale l’elemento non sara' piu'
-spostato. Piu' in dettaglio:  
+Al passo principale k, k = 0, . . . , n − 1, viene selezionato l’elemento che deve essere collocato nella posizione k. L’elemento viene collocato in tale posizione, dalla quale l’elemento non sara' piu' spostato. Piu' in dettaglio:  
 1. Prima del passo principale k, i primi k elementi dell’array sono al loro posto definitivo, cioe' sono ordinati tra loro e minori o uguali degli elementi successivi, i.e., 
     A\[0\] ≤ A\[1\] ≤ · · · ≤  A\[k − 1\] e A\[k − 1\] ≤ A\[j\] per j ≥ k;  
 2. si seleziona l’elemento che andra' collocato in posizione k, cioe' il minimo della parte non  ordinata (quindi il minimo tra A\[k\], . . . , A\[n − 1\]),  

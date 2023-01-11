@@ -42,6 +42,7 @@ algoritmo merge (array B[0..ℓB − 1], array C[0..ℓC − 1]) → array
 			X[k] ← C[i2] // preleva il prossimo elemento da C
 			i2 ← i2 + 1
 		k ← k + 1
+	
 	if i1 < ℓB then  
 		for j ← i1 to ℓB − 1 do // copia in X gli elementi rimasti in B  
 			X[k] ← B[j]  
