@@ -1,3 +1,4 @@
+
 #algoritmi-strutture-dati  #struttura-dati
 
 Uno **heap** (o max-heap) e' un [[Alberi#Alberi binari *quasi completi*|albero binario quasi completo]] in cui la chiave contenuta in ciascun nodo e' maggiore o uguale delle chiavi contenute nei figli, per comodita' considereremo solo heap in cui le foglie dell'ultimo livello si trovano piu' a sinistra possibile.

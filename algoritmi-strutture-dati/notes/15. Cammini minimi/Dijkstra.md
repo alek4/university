@@ -36,7 +36,7 @@ Algoritmo Dijsktra (grafo pesato G = (V, E, ω), vertice s) → vettore distanze
 		C.insert(v, D[v])  
 	
 	while C != ∅ do  
-		u ← C.deleteM in()  
+		u ← C.deleteMin()  
 		foreach (u, v) ∈ E do  
 			if D[u] + ω(u, v) < D[v] then  
 				D[v] ← D[u] + ω(u, v)  
