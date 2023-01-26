@@ -1,6 +1,6 @@
 #sistemi-operativi
 
-Le architetture dei sistemi operativi sono il modo in cui il sistema operativo è strutturato e organizzato. Ci sono diversi modi di progettare un sistema, per esempio pu; essere fatto come un unico blocco oppure, un orientamento diverso, suddividerlo in piccoli componenti, detti moduli che svolgono una piccola funzione specifica.
+Le architetture dei sistemi operativi sono il modo in cui il sistema operativo è strutturato e organizzato. Ci sono diversi modi di progettare un sistema, per esempio può essere fatto come un unico blocco oppure, un orientamento diverso, suddividerlo in piccoli componenti, detti moduli che svolgono una piccola funzione specifica.
 
 La struttura piu' semplice e' la struttura **monolitica**, tutte le funzionalita' del kernel vengono inserite in un singolo file binario, esse non sono ordinate e possono essere accedute da qualsiasi punto del kernel. Nonostante la sua difficolta' nell'implementarlo e manutenerlo, esso e' molto compatto e veloce grazie al ridotto overhead per le chiamate di sistema e alla sua comunicazione interna quasi istantanea.
 
