@@ -1,0 +1,185 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    biscotti_tg
+Objective:  h = 27132.19585 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 numero_ingredienti_usati[Farina]
+                    BS      91.33531     -91.33531        .           -50.37433       -.47814   27088.52459 min_prod[Frollino_del_mattino]
+                                            .               +Inf      666.00000        .46496   27174.66307 min_ingredienti[Farina]
+
+     2 numero_ingredienti_usati[Uova]
+                    NL        .             .             .           -71.70000          -Inf   27279.00000 max_prod[ProntiVia]
+                                          -2.04748          +Inf      130.50000       2.04748   26865.00000 min_ingredienti[Burro]
+
+     3 numero_ingredienti_usati[Zucchero]
+                    NL        .             .             .          -182.54958          -Inf   27225.63739 min_ingredienti[Zucchero]
+                                           -.51187          +Inf      522.00000        .51187   26865.00000 min_ingredienti[Burro]
+
+     4 numero_ingredienti_usati[Burro]
+                    NL        .             .             .          -110.12658          -Inf   27244.93671 min_ingredienti[Burro]
+                                          -1.02374          +Inf      451.18812       1.02374   26670.29703 min_ingredienti[Uova]
+
+     5 numero_ingredienti_usati[Latte]
+                    BS     216.94362    -216.94362        .           112.03279       -.41627   27041.88868 min_prod[Frollino_del_mattino]
+                                            .               +Inf      456.00000       1.11771   27374.67603 min_ingredienti[Latte]
+
+     6 numero_ingredienti_usati[Additivi]
+                    NL        .             .             .          -113.70629          -Inf   27248.60140 min_ingredienti[Additivi]
+                                          -1.02374          +Inf      261.00000       1.02374   26865.00000 min_ingredienti[Burro]
+
+     7 numero_ingredienti_usati[Nocciole]
+                    BS     453.11573    -453.11573        .           402.00000      -5.22727   24763.63636 numero_ingredienti_usati[Zucchero]
+                                            .               +Inf      509.11475        .77986   27485.56150 min_prod[Frollino_del_mattino]
+
+     8 numero_ingredienti_usati[Acqua]
+                    NL        .             .             .         -6944.33234          -Inf   27132.19585 z[Acqua]
+                                            .               +Inf           +Inf        .        27132.19585
+
+     9 min_ingredienti[Farina]
+                    NL     450.00000        .          450.00000      443.08625          -Inf   27174.66307 numero_ingredienti_usati[Farina]
+                                          -6.14243          +Inf      493.50000       6.14243   26865.00000 min_ingredienti[Burro]
+
+    10 min_ingredienti[Uova]
+                    BS     211.26855     -11.26855     200.00000      207.19672     -10.72523   24866.29213 min_prod[Frollino_del_mattino]
+                                            .               +Inf      215.62500      61.33333   40090.00000 numero_ingredienti_usati[Uova]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    biscotti_tg
+Objective:  h = 27132.19585 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 min_ingredienti[Zucchero]
+                    BS     335.93472     -15.93472     320.00000      325.77002     -24.52006   18895.05731 max_prod[Alba_radiosa]
+                                            .               +Inf      381.50000       5.86402   29102.12465 numero_ingredienti_usati[Zucchero]
+
+    12 min_ingredienti[Burro]
+                    BS     146.45401      -6.45401     140.00000      135.29703     -41.40000   21069.00000 numero_ingredienti_usati[Zucchero]
+                                            .               +Inf      172.89604      17.46835   29690.50633 numero_ingredienti_usati[Burro]
+
+    13 min_ingredienti[Latte]
+                    NL     320.00000        .          320.00000      312.03333          -Inf   27279.00000 max_prod[ProntiVia]
+                                         -18.42730          +Inf      334.50000      18.42730   26865.00000 min_ingredienti[Burro]
+
+    14 min_ingredienti[Additivi]
+                    BS     108.04154      -8.04154     100.00000      104.75000     -81.17647   18361.76471 numero_ingredienti_usati[Zucchero]
+                                            .               +Inf      114.45082       6.81376   27868.36470 min_prod[Frollino_del_mattino]
+
+    15 min_ingredienti[Nocciole]
+                    NL      50.00000        .           50.00000       47.61000          -Inf   27279.00000 max_prod[ProntiVia]
+                                         -61.42433          +Inf       54.35000      61.42433   26865.00000 min_ingredienti[Burro]
+
+    16 min_ingredienti[Acqua]
+                    BS     578.69436    -578.69436        .           556.98152     -11.47887   20489.43662 max_prod[Alba_radiosa]
+                                            .               +Inf           +Inf        .        27132.19585 numero_ingredienti_usati[Acqua]
+
+    17 tempo_lav    NU      60.00000        .               -Inf       58.41983    -195.84570   26822.72727 max_prod[ProntiVia]
+                                         195.84570      60.00000       62.87603          +Inf   27695.45455 min_ingredienti[Burro]
+
+    18 min_prod[Svegliallegra]
+                    BS     122.40356     -72.40356      50.00000       75.73770       -.93583   27017.64706 min_prod[Frollino_del_mattino]
+                                            .               +Inf      165.00000       6.27273   27900.00000 numero_ingredienti_usati[Zucchero]
+
+    19 min_prod[Frollino_del_mattino]
+                    NL     100.00000        .          100.00000       29.65607          -Inf   27186.98897 min_ingredienti[Additivi]
+                                           -.77893          +Inf      156.06557        .77893   27088.52459 numero_ingredienti_usati[Farina]
+
+    20 min_prod[Alba_radiosa]
+                    BS    1000.00000    -500.00000     500.00000      950.92402      -5.07864   22053.56083 max_prod[Alba_radiosa]
+                                            .               +Inf     1000.00000          +Inf          +Inf
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    biscotti_tg
+Objective:  h = 27132.19585 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 min_prod[ProntiVia]
+                    BS     464.54006    -164.54006     300.00000      400.00000      -4.14000   25209.00000 numero_ingredienti_usati[Zucchero]
+                                            .               +Inf      479.18033       2.98295   28517.89773 min_prod[Frollino_del_mattino]
+
+    22 max_prod[Svegliallegra]
+                    BS     122.40356     177.59644          -Inf       75.73770       -.93583   27017.64706 min_prod[Frollino_del_mattino]
+                                            .          300.00000      165.00000       6.27273   27900.00000 numero_ingredienti_usati[Zucchero]
+
+    23 max_prod[Frollino_del_mattino]
+                    BS     100.00000     400.00000          -Inf      100.00000          -Inf          -Inf
+                                            .          500.00000      156.06557        .77893   27210.08902 min_prod[Frollino_del_mattino]
+
+    24 max_prod[Alba_radiosa]
+                    NU    1000.00000        .               -Inf      950.92402      -5.07864   26882.95688 max_prod[ProntiVia]
+                                           5.07864    1000.00000     1041.17175          +Inf   27341.29213 numero_ingredienti_usati[Farina]
+
+    25 max_prod[ProntiVia]
+                    BS     464.54006      35.45994          -Inf      400.00000      -4.14000   25209.00000 numero_ingredienti_usati[Zucchero]
+                                            .          500.00000      479.18033       2.98295   28517.89773 min_prod[Frollino_del_mattino]
+
+    26 lim_budget   NU   21600.00000        .               -Inf    21339.00000      -1.02374   26865.00000 min_ingredienti[Burro]
+                                           1.02374   21600.00000    21743.40000          +Inf   27279.00000 max_prod[ProntiVia]
+
+    27 h            BS   27132.19585  -27132.19585          -Inf    26822.72727      -1.00000        .      tempo_lav
+                                            .               +Inf    27132.19585          +Inf          +Inf
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    biscotti_tg
+Objective:  h = 27132.19585 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[Svegliallegra]
+                    BS    1468.84273       1.75000        .           908.85246       1.67201   27017.64706 min_prod[Frollino_del_mattino]
+                                            .               +Inf     1980.00000       2.27273   27900.00000 numero_ingredienti_usati[Zucchero]
+
+     2 x[Frollino_del_mattino]
+                    BS    1200.00000       1.00000        .          1200.00000          -Inf          -Inf
+                                            .               +Inf     1872.78689       1.06491   27210.08902 min_prod[Frollino_del_mattino]
+
+     3 x[Alba_radiosa]
+                    BS   12000.00000       1.25000        .         11411.08830        .82678   22053.56083 max_prod[Alba_radiosa]
+                                            .               +Inf    12000.00000          +Inf          +Inf
+
+     4 x[ProntiVia] BS    5574.48071       1.50000        .          4800.00000       1.15500   25209.00000 numero_ingredienti_usati[Zucchero]
+                                            .               +Inf     5750.16393       1.74858   28517.89773 min_prod[Frollino_del_mattino]
+
+     5 z[Farina]    BS    5400.00000        .             .          5400.00000          -Inf          -Inf
+                                            .               +Inf     5922.00000        .51187   29896.29080 min_ingredienti[Farina]
+
+     6 z[Uova]      BS    2535.22255        .             .          2486.36066       -.89377   24866.29213 min_prod[Frollino_del_mattino]
+                                            .               +Inf     2587.50000       5.11111   40090.00000 numero_ingredienti_usati[Uova]
+
+     7 z[Zucchero]  BS    4031.21662        .             .          3909.24025      -2.04334   18895.05731 max_prod[Alba_radiosa]
+                                            .               +Inf     4578.00000        .48867   29102.12465 numero_ingredienti_usati[Zucchero]
+
+     8 z[Burro]     BS    1757.44807        .             .          1680.00000      -3.45000   21069.00000 numero_ingredienti_usati[Zucchero]
+                                            .               +Inf     2074.75248       1.45570   29690.50633 numero_ingredienti_usati[Burro]
+
+     9 z[Latte]     BS    3840.00000        .             .          3840.00000          -Inf          -Inf
+                                            .               +Inf     4014.00000       1.53561   33028.93175 min_ingredienti[Latte]
+
+    10 z[Additivi]  BS    1296.49852        .             .          1257.00000      -6.76471   18361.76471 numero_ingredienti_usati[Zucchero]
+                                            .               +Inf     1373.40984        .56781   27868.36470 min_prod[Frollino_del_mattino]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    biscotti_tg
+Objective:  h = 27132.19585 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 z[Nocciole]  BS     600.00000        .             .           600.00000          -Inf          -Inf
+                                            .               +Inf      652.20000       5.11869   30203.41246 min_ingredienti[Nocciole]
+
+    12 z[Acqua]     BS    6944.33234        .             .          6683.77823       -.95657   20489.43662 max_prod[Alba_radiosa]
+                                            .               +Inf           +Inf        .        27132.19585 numero_ingredienti_usati[Acqua]
+
+End of report

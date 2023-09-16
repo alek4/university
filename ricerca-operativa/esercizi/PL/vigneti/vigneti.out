@@ -1,0 +1,173 @@
+Problem:    vigneti
+Rows:       66
+Columns:    10
+Non-zeros:  115
+Status:     OPTIMAL
+Objective:  z = 21120000 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 MaxProd[Silvaner]
+                    B       1.14e+06                     1.5e+06 
+     2 MaxProd[Riesling]
+                    B      1.125e+06                     1.2e+06 
+     3 MaxProd[Pinot]
+                    NU        950000                      950000             4 
+     4 MaxProd[Mueller-T]
+                    NU        800000                      800000             3 
+     5 MaxProd[Merlot]
+                    B       1.19e+06                     1.5e+06 
+     6 MaxColt[Silvaner]
+                    NU            95                          95         54000 
+     7 MaxColt[Riesling]
+                    NU           125                         125         45000 
+     8 MaxColt[Pinot]
+                    B             95                          95 
+     9 MaxColt[Mueller-T]
+                    B            100                         100 
+    10 MaxColt[Merlot]
+                    NU            85                          85         49000 
+    11 Produzione[Silvaner]
+                    NS             0            -0             =           4.5 
+    12 Produzione[Riesling]
+                    NS             0            -0             =             5 
+    13 Produzione[Pinot]
+                    NS             0            -0             =         < eps
+    14 Produzione[Mueller-T]
+                    NS             0            -0             =         < eps
+    15 Produzione[Merlot]
+                    NS             0            -0             =           3.5 
+    16 MaxDivVit[Silvaner,Silvaner]
+                    B           -190                          -0 
+    17 MaxDivVit[Silvaner,Riesling]
+                    B           -280                          -0 
+    18 MaxDivVit[Silvaner,Pinot]
+                    B           -190                          -0 
+    19 MaxDivVit[Silvaner,Mueller-T]
+                    B           -205                          -0 
+    20 MaxDivVit[Silvaner,Merlot]
+                    B           -160                          -0 
+    21 MaxDivVit[Riesling,Silvaner]
+                    B           -160                          -0 
+    22 MaxDivVit[Riesling,Riesling]
+                    B           -250                          -0 
+    23 MaxDivVit[Riesling,Pinot]
+                    B           -160                          -0 
+    24 MaxDivVit[Riesling,Mueller-T]
+                    B           -175                          -0 
+    25 MaxDivVit[Riesling,Merlot]
+                    B           -130                          -0 
+    26 MaxDivVit[Pinot,Silvaner]
+                    B           -190                          -0 
+    27 MaxDivVit[Pinot,Riesling]
+                    B           -280                          -0 
+    28 MaxDivVit[Pinot,Pinot]
+                    B           -190                          -0 
+    29 MaxDivVit[Pinot,Mueller-T]
+                    B           -205                          -0 
+    30 MaxDivVit[Pinot,Merlot]
+                    B           -160                          -0 
+    31 MaxDivVit[Mueller-T,Silvaner]
+                    B           -185                          -0 
+    32 MaxDivVit[Mueller-T,Riesling]
+                    B           -275                          -0 
+    33 MaxDivVit[Mueller-T,Pinot]
+                    B           -185                          -0 
+    34 MaxDivVit[Mueller-T,Mueller-T]
+                    B           -200                          -0 
+    35 MaxDivVit[Mueller-T,Merlot]
+                    B           -155                          -0 
+    36 MaxDivVit[Merlot,Silvaner]
+                    B           -200                          -0 
+    37 MaxDivVit[Merlot,Riesling]
+                    B           -290                          -0 
+    38 MaxDivVit[Merlot,Pinot]
+                    B           -200                          -0 
+    39 MaxDivVit[Merlot,Mueller-T]
+                    B           -215                          -0 
+    40 MaxDivVit[Merlot,Merlot]
+                    B           -170                          -0 
+    41 MaxDivVin[Silvaner,Silvaner]
+                    B      -3.42e+06                          -0 
+    42 MaxDivVin[Silvaner,Riesling]
+                    B      -3.36e+06                          -0 
+    43 MaxDivVin[Silvaner,Pinot]
+                    B      -2.66e+06                          -0 
+    44 MaxDivVin[Silvaner,Mueller-T]
+                    B      -2.06e+06                          -0 
+    45 MaxDivVin[Silvaner,Merlot]
+                    B      -3.62e+06                          -0 
+    46 MaxDivVin[Riesling,Silvaner]
+                    B     -3.435e+06                          -0 
+    47 MaxDivVin[Riesling,Riesling]
+                    B     -3.375e+06                          -0 
+    48 MaxDivVin[Riesling,Pinot]
+                    B     -2.675e+06                          -0 
+    49 MaxDivVin[Riesling,Mueller-T]
+                    B     -2.075e+06                          -0 
+    50 MaxDivVin[Riesling,Merlot]
+                    B     -3.635e+06                          -0 
+    51 MaxDivVin[Pinot,Silvaner]
+                    B      -3.61e+06                          -0 
+    52 MaxDivVin[Pinot,Riesling]
+                    B      -3.55e+06                          -0 
+    53 MaxDivVin[Pinot,Pinot]
+                    B      -2.85e+06                          -0 
+    54 MaxDivVin[Pinot,Mueller-T]
+                    B      -2.25e+06                          -0 
+    55 MaxDivVin[Pinot,Merlot]
+                    B      -3.81e+06                          -0 
+    56 MaxDivVin[Mueller-T,Silvaner]
+                    B      -3.76e+06                          -0 
+    57 MaxDivVin[Mueller-T,Riesling]
+                    B       -3.7e+06                          -0 
+    58 MaxDivVin[Mueller-T,Pinot]
+                    B         -3e+06                          -0 
+    59 MaxDivVin[Mueller-T,Mueller-T]
+                    B       -2.4e+06                          -0 
+    60 MaxDivVin[Mueller-T,Merlot]
+                    B      -3.96e+06                          -0 
+    61 MaxDivVin[Merlot,Silvaner]
+                    B      -3.37e+06                          -0 
+    62 MaxDivVin[Merlot,Riesling]
+                    B      -3.31e+06                          -0 
+    63 MaxDivVin[Merlot,Pinot]
+                    B      -2.61e+06                          -0 
+    64 MaxDivVin[Merlot,Mueller-T]
+                    B      -2.01e+06                          -0 
+    65 MaxDivVin[Merlot,Merlot]
+                    B      -3.57e+06                          -0 
+    66 z            B      2.112e+07                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[Silvaner]  B       1.14e+06        150000               
+     2 x[Riesling]  B      1.125e+06        200000               
+     3 x[Pinot]     B         950000        100000               
+     4 x[Mueller-T] B         800000        150000               
+     5 x[Merlot]    B       1.19e+06        100000               
+     6 y[Silvaner]  B             95             0               
+     7 y[Riesling]  B            125             0               
+     8 y[Pinot]     B             95             0               
+     9 y[Mueller-T] B            100             0               
+    10 y[Merlot]    B             85             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 4.66e-10 on row 12
+        max.rel.err = 2.07e-16 on row 12
+        High quality
+
+KKT.PB: max.abs.err = 2.84e-14 on row 8
+        max.rel.err = 2.96e-16 on row 8
+        High quality
+
+KKT.DE: max.abs.err = 2.72e-11 on column 9
+        max.rel.err = 2.72e-11 on column 9
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

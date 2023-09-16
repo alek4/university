@@ -1,0 +1,96 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    biscotti2
+Objective:  z = 461.0163205 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 consumi[Farina]
+                    BS      -7.61128       7.61128          -Inf      -12.00000       -.11765     461.91176 budget_sett
+                                            .             .             4.19786        .47814     457.37705 x[Frollino]
+
+     2 consumi[Uova]
+                    NU        .             .               -Inf      -10.87500      -2.04748     438.75000 y[Burro]
+                                           2.04748        .             5.97500          +Inf     473.25000 x[ProntiVia]
+
+     3 consumi[Zucchero]
+                    NU        .             .               -Inf      -43.50000       -.51187     438.75000 y[Burro]
+                                            .51187        .            15.21246          +Inf     468.80312 y[Zucchero]
+
+     4 consumi[Burro]
+                    NU        .             .               -Inf      -37.59901      -1.02374     422.52475 y[Uova]
+                                           1.02374        .             9.17722          +Inf     470.41139 y[Burro]
+
+     5 consumi[Latte]
+                    BS     -18.07864      18.07864          -Inf      -23.50000       -.09524     462.73810 budget_sett
+                                            .             .            -9.33607        .41627     453.49072 x[Frollino]
+
+     6 consumi[Additivi]
+                    NU        .             .               -Inf      -21.75000      -1.02374     438.75000 y[Burro]
+                                           1.02374        .             9.47552          +Inf     470.71678 y[Additivi]
+
+     7 consumi[Nocciole]
+                    BS     -37.75964      37.75964          -Inf      -42.42623       -.77986     490.46346 x[Frollino]
+                                            .             .           -33.50000        .12121     456.43939 budget_sett
+
+     8 tempo        NU       5.00000        .               -Inf        4.86832    -195.84570     435.22727 x[ProntiVia]
+                                         195.84570       5.00000        5.23967          +Inf     507.95455 y[Burro]
+
+     9 budget_sett  NU    1800.00000        .               -Inf     1778.25000       -.02374     460.50000 y[Burro]
+                                            .02374    1800.00000     1811.95000          +Inf     461.30000 x[ProntiVia]
+
+    10 z            BS     461.01632    -461.01632          -Inf      435.22727      -1.00000        .      tempo
+                                            .               +Inf      461.01632          +Inf          +Inf
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    biscotti2
+Objective:  z = 461.0163205 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[Svegliallegra]
+                    BS     122.40356       1.75000      50.00000       75.73770       1.67201     451.47059 x[Frollino]
+                                            .          300.00000      165.00000       1.76212     462.50000 budget_sett
+
+     2 x[Frollino]  NL     100.00000       1.00000     100.00000       29.65607          -Inf     465.58241 y[Additivi]
+                                           -.06491     500.00000      156.06557       1.06491     457.37705 consumi[Farina]
+
+     3 x[Alba]      NU    1000.00000       1.25000     500.00000      950.92402        .82678     440.24641 x[ProntiVia]
+                                            .42322    1000.00000     1041.17175          +Inf     478.44101 consumi[Farina]
+
+     4 x[ProntiVia] BS     464.54006       1.50000     300.00000      400.00000       1.49200     457.30000 budget_sett
+                                            .          500.00000      479.18033       1.74858     576.49148 x[Frollino]
+
+     5 y[Farina]    NL     450.00000       -.50000     450.00000      443.08625          -Inf     464.55526 consumi[Farina]
+                                           -.51187          +Inf      493.50000        .01187     438.75000 y[Burro]
+
+     6 y[Uova]      BS     211.26855      -2.00000     200.00000      204.75000      -2.07921     444.28218 budget_sett
+                                            .               +Inf      215.62500       3.11111    1540.83333 consumi[Uova]
+
+     7 y[Zucchero]  BS     335.93472       -.50000     320.00000      325.77002      -2.54334    -225.41189 x[Alba]
+                                            .               +Inf      338.00000       -.25000     545.00000 budget_sett
+
+     8 y[Burro]     BS     146.45401      -1.00000     140.00000      135.29703      -1.08000     449.30000 budget_sett
+                                            .               +Inf      172.89604        .45570     674.20886 consumi[Burro]
+
+     9 y[Latte]     NL     320.00000      -1.50000     320.00000      312.03333          -Inf     473.25000 x[ProntiVia]
+                                          -1.53561          +Inf      334.50000        .03561     438.75000 y[Burro]
+
+    10 y[Additivi]  BS     108.04154      -1.00000     100.00000      104.75000      -1.15686     444.06863 budget_sett
+                                            .               +Inf      114.45082       -.43219     522.36372 x[Frollino]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    biscotti2
+Objective:  z = 461.0163205 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 y[Nocciole]  NL      50.00000      -5.00000      50.00000       47.61000          -Inf     473.25000 x[ProntiVia]
+                                          -5.11869          +Inf       54.35000        .11869     438.75000 y[Burro]
+
+End of report

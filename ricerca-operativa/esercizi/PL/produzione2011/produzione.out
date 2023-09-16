@@ -1,0 +1,63 @@
+Problem:    produzione
+Rows:       7
+Columns:    24
+Non-zeros:  58
+Status:     OPTIMAL
+Objective:  z = 243000 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 fcc[2]       NS           130           130             =           300 
+     2 fcc[3]       NS           150           150             =           300 
+     3 fcc[4]       NS           100           100             =           300 
+     4 fcc[5]       NS           170           170             =           300 
+     5 fcc[6]       NS           160           160             =           300 
+     6 fcc1         NS           100           100             =           300 
+     7 z            B         243000                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[2,1]       B            130             0               
+     2 x[2,2]       NL             0             0                          30 
+     3 x[3,1]       B            150             0               
+     4 x[3,2]       NL             0             0                          30 
+     5 x[4,1]       B            100             0               
+     6 x[4,2]       NL             0             0                          30 
+     7 x[5,1]       B            170             0               
+     8 x[5,2]       NL             0             0                          30 
+     9 x[6,1]       B            160             0               
+    10 x[6,2]       NL             0             0                          30 
+    11 x[1,1]       B            100             0               
+    12 x[1,2]       NL             0             0                          30 
+    13 y[1,1]       NL             0             0                          10 
+    14 y[1,2]       NL             0             0                          10 
+    15 y[2,1]       NL             0             0                          10 
+    16 y[2,2]       NL             0             0                          10 
+    17 y[3,1]       NL             0             0                          10 
+    18 y[3,2]       NL             0             0                          10 
+    19 y[4,1]       NL             0             0                          10 
+    20 y[4,2]       NL             0             0                          10 
+    21 y[5,1]       NL             0             0                          10 
+    22 y[5,2]       NL             0             0                          10 
+    23 y[6,1]       NL             0             0                         310 
+    24 y[6,2]       NL             0             0                         310 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

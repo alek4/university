@@ -1,0 +1,42 @@
+Problem:    PMO
+Rows:       6
+Columns:    4
+Non-zeros:  23
+Status:     OPTIMAL
+Objective:  z2 = 39.92815457 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Consumi[A]   B        87.1058                         100 
+     2 Consumi[B]   NU           120                         120      0.337066 
+     3 Consumi[C]   B        69.0317                          90 
+     4 Consumi[D]   NU           110                         110       0.47571 
+     5 z2           B        39.9282                             
+     6 obj1         NL         27.13         27.13                    -1.94795 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[X]         B        13.8074             0               
+     2 x[Y]         NL             0             0                  -0.0487382 
+     3 x[Z]         B        7.52082             0               
+     4 x[W]         B        2.01987             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 2.84e-14 on row 2
+        max.rel.err = 1.18e-16 on row 2
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 3.55e-15 on column 4
+        max.rel.err = 2.93e-16 on column 4
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

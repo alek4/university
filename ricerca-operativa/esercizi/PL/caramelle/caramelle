@@ -1,0 +1,18 @@
+set Ingredienti;
+set Caramelle;
+param proporzioni {Ingredienti, Caramelle};
+
+data;
+
+set Caramelle := Dolce Delizia Bacetto Golosa Sfizio Slurp Sweety;
+set Ingredienti := Fruttosio Saccarosio Glucosio Destrosio Estratti_di_erbe Estratti_di_frutta Coloranti Conservanti Aromatizzanti;
+param proporzioni: Dolce Delizia Bacetto Golosa Sfizio Slurp Sweety :=
+Fruttosio           30      0       5       5      5    10     10
+Saccarosio          20     30       0       5      5     5     10
+Glucosio            15     20      30       0      5     5      5
+Destrosio           10     15      20      30      0     5      5
+Estratti di erbe    10     10      15      20     30     0      5
+Estratti di frutta   5     10      10      15     20    30      0
+Coloranti            5      5      10      10     15    20     30
+Conservanti          5      5       5      10     10    15     20
+Aromatizzanti        0      5       5       5     10    10     15;

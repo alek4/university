@@ -23,7 +23,7 @@ else
 	rank(A) <- rank(A) + 1
 ```
 
-Per le restanti due operazioni di _MAKESET_ e FIND_FIND_, rimarranno uguali; solo _MAKESET_ dovra' aggiungere alla radice che il rank e' 0.
+Per le restanti due operazioni di _MAKESET_ e _FIND_, rimarranno uguali; solo _MAKESET_ dovra' aggiungere alla radice che il rank e' 0.
 
 _Lemma_: Ogni albero "QuickUnion" costruito effetturando operazioni di _UNION_ bilanciate, contiene almeno $2^{rank(x)}$, $x$ radice.
 

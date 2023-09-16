@@ -1,0 +1,44 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    chitarre
+Objective:  z = 12786.66667 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Min_Chitarre NL     100.00000        .          100.00000       60.00000          -Inf   13400.00000 x[3]
+                                         -15.33333          +Inf      120.00000      15.33333   12480.00000 x[1]
+
+     2 Ore_lavorative[1]
+                    BS     162.66667     237.33333          -Inf      144.00000     -16.42857   10114.28571 Min_Chitarre
+                                            .          400.00000      162.66667          +Inf          +Inf
+
+     3 Ore_lavorative[2]
+                    NU     200.00000        .               -Inf      153.33333     -24.00000   11666.66667 x[2]
+                                          24.00000     200.00000      386.66667          +Inf   17266.66667 x[3]
+
+     4 Ore_lavorative[3]
+                    NU     120.00000        .               -Inf      100.00000     -79.33333   11200.00000 x[1]
+                                          79.33333     120.00000      400.00000          +Inf   35000.00000 x[2]
+
+     5 z            BS   12786.66667  -12786.66667          -Inf    11200.00000      -1.00000        .      Ore_lavorative[3]
+                                            .               +Inf    12786.66667          +Inf          +Inf
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    chitarre
+Objective:  z = 12786.66667 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         BS       6.66667     350.00000        .            -5.00000     304.00000   12480.00000 Min_Chitarre
+                                            .               +Inf        6.66667          +Inf          +Inf
+
+     2 x[2]         BS      18.66667     160.00000        .             8.00000     131.25000   12250.00000 Min_Chitarre
+                                            .               +Inf       20.00000    1350.00000   35000.00000 Ore_lavorative[3]
+
+     3 x[3]         BS      74.66667     100.00000        .            74.66667          -Inf          -Inf
+                                            .               +Inf      112.00000     108.21429   13400.00000 Min_Chitarre
+
+End of report

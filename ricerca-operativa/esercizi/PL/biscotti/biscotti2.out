@@ -1,0 +1,61 @@
+Problem:    biscotti2
+Rows:       10
+Columns:    11
+Non-zeros:  50
+Status:     OPTIMAL
+Objective:  z = 461.0163205 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 consumi[Farina]
+                    B       -7.61128                          -0 
+     2 consumi[Uova]
+                    NU             0                          -0       2.04748 
+     3 consumi[Zucchero]
+                    NU             0                          -0      0.511869 
+     4 consumi[Burro]
+                    NU             0                          -0       1.02374 
+     5 consumi[Latte]
+                    B       -18.0786                          -0 
+     6 consumi[Additivi]
+                    NU             0                          -0       1.02374 
+     7 consumi[Nocciole]
+                    B       -37.7596                          -0 
+     8 tempo        NU             5                           5       195.846 
+     9 budget_sett  NU          1800                        1800     0.0237389 
+    10 z            B        461.016                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[Svegliallegra]
+                    B        122.404            50           300 
+     2 x[Frollino]  NL           100           100           500     -0.064911 
+     3 x[Alba]      NU          1000           500          1000       0.42322 
+     4 x[ProntiVia] B         464.54           300           500 
+     5 y[Farina]    NL           450           450                   -0.511869 
+     6 y[Uova]      B        211.269           200               
+     7 y[Zucchero]  B        335.935           320               
+     8 y[Burro]     B        146.454           140               
+     9 y[Latte]     NL           320           320                    -1.53561 
+    10 y[Additivi]  B        108.042           100               
+    11 y[Nocciole]  NL            50            50                    -5.11869 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.33e-15 on column 10
+        max.rel.err = 4.37e-16 on column 10
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

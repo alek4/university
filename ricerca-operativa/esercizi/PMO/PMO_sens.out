@@ -1,0 +1,47 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    PMO
+Objective:  z2 = 39.92815457 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Consumi[A]   BS      87.10584      12.89416          -Inf       63.51421       -.50604      -4.15091 Consumi[D]
+                                            .          100.00000       91.79771        .03801      43.23882 x[Y]
+
+     2 Consumi[B]   NU     120.00000        .               -Inf       40.53000       -.33707      13.14150 x[Z]
+                                            .33707     120.00000      142.07931          +Inf      47.37034 x[W]
+
+     3 Consumi[C]   BS      69.03170      20.96830          -Inf       39.89842       -.40978      11.64016 Consumi[D]
+                                            .           90.00000       88.98229        .00894      40.54519 x[Y]
+
+     4 Consumi[D]   NU     110.00000        .               -Inf       84.90421       -.47571      27.98984 x[Z]
+                                            .47571     110.00000      123.71628          +Inf      46.45312 Consumi[A]
+
+     5 z2           BS      39.92815     -39.92815          -Inf       27.98984      -1.00000        .      Consumi[D]
+                                            .               +Inf       39.92815          +Inf          +Inf
+
+     6 obj1         NL      27.13000        .           27.13000       25.06452          -Inf      43.95161 x[W]
+                                          -1.94795          +Inf       32.67442       1.94795      29.12791 x[Z]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    PMO
+Objective:  z2 = 39.92815457 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[X]         BS      13.80741       1.70000        .             8.98857       1.66299      39.41720 x[Y]
+                                            .               +Inf       14.36158      23.24286     337.37929 Consumi[D]
+
+     2 x[Y]         NL        .             .40000        .            -6.91043          -Inf      40.26496 x[Z]
+                                           -.04874          +Inf        3.65886        .44874      39.74983 x[W]
+
+     3 x[Z]         BS       7.52082       2.00000        .                -Inf        .56395      29.12791 obj1
+                                            .               +Inf       11.50286       2.04478      40.26496 x[Y]
+
+     4 x[W]         BS       2.01987        .70000        .             -.10304        .61171      39.74983 x[Y]
+                                            .               +Inf        7.44186       2.69194      43.95161 obj1
+
+End of report

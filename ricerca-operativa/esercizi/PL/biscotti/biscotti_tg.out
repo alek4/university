@@ -1,0 +1,98 @@
+Problem:    biscotti_tg
+Rows:       27
+Columns:    12
+Non-zeros:  64
+Status:     OPTIMAL
+Objective:  h = 27132.19585 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 numero_ingredienti_usati[Farina]
+                    B        91.3353            -0               
+     2 numero_ingredienti_usati[Uova]
+                    NL             0            -0                    -2.04748 
+     3 numero_ingredienti_usati[Zucchero]
+                    NL             0            -0                   -0.511869 
+     4 numero_ingredienti_usati[Burro]
+                    NL             0            -0                    -1.02374 
+     5 numero_ingredienti_usati[Latte]
+                    B        216.944            -0               
+     6 numero_ingredienti_usati[Additivi]
+                    NL             0            -0                    -1.02374 
+     7 numero_ingredienti_usati[Nocciole]
+                    B        453.116            -0               
+     8 numero_ingredienti_usati[Acqua]
+                    NL             0            -0                       < eps
+     9 min_ingredienti[Farina]
+                    NL           450           450                    -6.14243 
+    10 min_ingredienti[Uova]
+                    B        211.269           200               
+    11 min_ingredienti[Zucchero]
+                    B        335.935           320               
+    12 min_ingredienti[Burro]
+                    B        146.454           140               
+    13 min_ingredienti[Latte]
+                    NL           320           320                    -18.4273 
+    14 min_ingredienti[Additivi]
+                    B        108.042           100               
+    15 min_ingredienti[Nocciole]
+                    NL            50            50                    -61.4243 
+    16 min_ingredienti[Acqua]
+                    B        578.694            -0               
+    17 tempo_lav    NU            60                          60       195.846 
+    18 min_prod[Svegliallegra]
+                    B        122.404            50               
+    19 min_prod[Frollino_del_mattino]
+                    NL           100           100                   -0.778932 
+    20 min_prod[Alba_radiosa]
+                    B           1000           500               
+    21 min_prod[ProntiVia]
+                    B         464.54           300               
+    22 max_prod[Svegliallegra]
+                    B        122.404                         300 
+    23 max_prod[Frollino_del_mattino]
+                    B            100                         500 
+    24 max_prod[Alba_radiosa]
+                    NU          1000                        1000       5.07864 
+    25 max_prod[ProntiVia]
+                    B         464.54                         500 
+    26 lim_budget   NU         21600                       21600       1.02374 
+    27 h            B        27132.2                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[Svegliallegra]
+                    B        1468.84             0               
+     2 x[Frollino_del_mattino]
+                    B           1200             0               
+     3 x[Alba_radiosa]
+                    B          12000             0               
+     4 x[ProntiVia] B        5574.48             0               
+     5 z[Farina]    B           5400             0               
+     6 z[Uova]      B        2535.22             0               
+     7 z[Zucchero]  B        4031.22             0               
+     8 z[Burro]     B        1757.45             0               
+     9 z[Latte]     B           3840             0               
+    10 z[Additivi]  B         1296.5             0               
+    11 z[Nocciole]  B            600             0               
+    12 z[Acqua]     B        6944.33             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 3.64e-12 on row 26
+        max.rel.err = 8.77e-17 on row 6
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 8.88e-16 on column 8
+        max.rel.err = 2.91e-16 on column 8
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

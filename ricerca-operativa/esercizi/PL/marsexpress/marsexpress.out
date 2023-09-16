@@ -1,0 +1,554 @@
+Problem:    marsexpress
+Rows:       211
+Columns:    151
+Non-zeros:  446
+Status:     OPTIMAL
+Objective:  maxliv = 0.6338636364 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 LimiteOrbite[1]
+                    NU           405                         405  -0.000227273 
+     2 LimiteOrbite[2]
+                    NU           423                         423  -0.000227273 
+     3 LimiteOrbite[3]
+                    NU           495                         495  -0.000227273 
+     4 LimiteOrbite[4]
+                    NU           405                         405  -0.000227273 
+     5 LimiteOrbite[5]
+                    NU           315                         315  -0.000227273 
+     6 LimiteOrbite[6]
+                    NU           378                         378  -0.000227273 
+     7 LimiteOrbite[7]
+                    NU           270                         270  -0.000227273 
+     8 LimiteOrbite[8]
+                    NU           315                         315  -0.000227273 
+     9 LimiteOrbite[9]
+                    NU           396                         396         < eps
+    10 LimiteOrbite[10]
+                    NU           360                         360         < eps
+    11 capacity[1,1]
+                    B            535                        1000 
+    12 capacity[1,2]
+                    B            600                        1200 
+    13 capacity[1,3]
+                    B            580                        1000 
+    14 capacity[1,4]
+                    B        156.932                         500 
+    15 capacity[1,5]
+                    B        113.068                         700 
+    16 capacity[2,1]
+                    B        633.864                        1000 
+    17 capacity[2,2]
+                    B        602.341                        1200 
+    18 capacity[2,3]
+                    B        538.864                        1000 
+    19 capacity[2,4]
+                    B        181.932                         500 
+    20 capacity[2,5]
+                    B              0                         700 
+    21 capacity[3,1]
+                    B        430.568                        1000 
+    22 capacity[3,2]
+                    B        460.636                        1200 
+    23 capacity[3,3]
+                    B        538.864                        1000 
+    24 capacity[3,4]
+                    B        206.932                         500 
+    25 capacity[3,5]
+                    B            100                         700 
+    26 capacity[4,1]
+                    B        633.864                        1000 
+    27 capacity[4,2]
+                    B        760.636                        1200 
+    28 capacity[4,3]
+                    B        538.864                        1000 
+    29 capacity[4,4]
+                    B        231.932                         500 
+    30 capacity[4,5]
+                    B        166.705                         700 
+    31 capacity[5,1]
+                    B        633.864                        1000 
+    32 capacity[5,2]
+                    B        760.636                        1200 
+    33 capacity[5,3]
+                    B        633.864                        1000 
+    34 capacity[5,4]
+                    B        256.932                         500 
+    35 capacity[5,5]
+                    B        366.705                         700 
+    36 capacity[6,1]
+                    B        633.864                        1000 
+    37 capacity[6,2]
+                    B        760.636                        1200 
+    38 capacity[6,3]
+                    B        633.864                        1000 
+    39 capacity[6,4]
+                    B        256.932                         500 
+    40 capacity[6,5]
+                    B        168.705                         700 
+    41 capacity[7,1]
+                    B        538.864                        1000 
+    42 capacity[7,2]
+                    B        760.636                        1200 
+    43 capacity[7,3]
+                    B        633.864                        1000 
+    44 capacity[7,4]
+                    B        256.932                         500 
+    45 capacity[7,5]
+                    B        443.705                         700 
+    46 capacity[8,1]
+                    B        633.864                        1000 
+    47 capacity[8,2]
+                    B        760.636                        1200 
+    48 capacity[8,3]
+                    B        633.864                        1000 
+    49 capacity[8,4]
+                    B        316.932                         500 
+    50 capacity[8,5]
+                    B        443.705                         700 
+    51 capacity[9,1]
+                    B        633.864                        1000 
+    52 capacity[9,2]
+                    B        760.636                        1200 
+    53 capacity[9,3]
+                    B        623.864                        1000 
+    54 capacity[9,4]
+                    B        210.932                         500 
+    55 capacity[9,5]
+                    B        443.705                         700 
+    56 capacity[10,1]
+                    B        633.864                        1000 
+    57 capacity[10,2]
+                    B        760.636                        1200 
+    58 capacity[10,3]
+                    B        633.864                        1000 
+    59 capacity[10,4]
+                    B        270.932                         500 
+    60 capacity[10,5]
+                    B        443.705                         700 
+    61 flow_conservation0[1]
+                    NS          -500          -500             =  -0.000227273 
+    62 flow_conservation0[2]
+                    NS          -600          -600             =  -0.000227273 
+    63 flow_conservation0[3]
+                    NS          -500          -500             =  -0.000227273 
+    64 flow_conservation0[4]
+                    NS          -250          -250             =  -0.000227273 
+    65 flow_conservation0[5]
+                    NS          -350          -350             =  -0.000227273 
+    66 flow_conservation1[2,1]
+                    NS             0            -0             =  -0.000227273 
+    67 flow_conservation1[2,2]
+                    NS             0            -0             =  -0.000227273 
+    68 flow_conservation1[2,3]
+                    NS             0            -0             =  -0.000227273 
+    69 flow_conservation1[2,4]
+                    NS             0            -0             =  -0.000227273 
+    70 flow_conservation1[2,5]
+                    NS             0            -0             =  -0.000227273 
+    71 flow_conservation1[3,1]
+                    NS             0            -0             =  -0.000227273 
+    72 flow_conservation1[3,2]
+                    NS             0            -0             =  -0.000227273 
+    73 flow_conservation1[3,3]
+                    NS             0            -0             =  -0.000227273 
+    74 flow_conservation1[3,4]
+                    NS             0            -0             =  -0.000227273 
+    75 flow_conservation1[3,5]
+                    NS             0            -0             =  -0.000227273 
+    76 flow_conservation1[4,1]
+                    NS             0            -0             =  -0.000227273 
+    77 flow_conservation1[4,2]
+                    NS             0            -0             =  -0.000227273 
+    78 flow_conservation1[4,3]
+                    NS             0            -0             =  -0.000227273 
+    79 flow_conservation1[4,4]
+                    NS             0            -0             =  -0.000227273 
+    80 flow_conservation1[4,5]
+                    NS             0            -0             =  -0.000227273 
+    81 flow_conservation1[5,1]
+                    NS             0            -0             =  -0.000227273 
+    82 flow_conservation1[5,2]
+                    NS             0            -0             =  -0.000227273 
+    83 flow_conservation1[5,3]
+                    NS             0            -0             =  -0.000227273 
+    84 flow_conservation1[5,4]
+                    NS             0            -0             =  -0.000227273 
+    85 flow_conservation1[5,5]
+                    NS             0            -0             =  -0.000227273 
+    86 flow_conservation1[6,1]
+                    NS             0            -0             =  -0.000227273 
+    87 flow_conservation1[6,2]
+                    NS             0            -0             =  -0.000227273 
+    88 flow_conservation1[6,3]
+                    NS             0            -0             =  -0.000227273 
+    89 flow_conservation1[6,4]
+                    NS             0            -0             =  -0.000227273 
+    90 flow_conservation1[6,5]
+                    NS             0            -0             =  -0.000227273 
+    91 flow_conservation1[7,1]
+                    NS             0            -0             =  -0.000227273 
+    92 flow_conservation1[7,2]
+                    NS             0            -0             =  -0.000227273 
+    93 flow_conservation1[7,3]
+                    NS             0            -0             =  -0.000227273 
+    94 flow_conservation1[7,4]
+                    NS             0            -0             =  -0.000227273 
+    95 flow_conservation1[7,5]
+                    NS             0            -0             =  -0.000227273 
+    96 flow_conservation1[8,1]
+                    NS             0            -0             =  -0.000227273 
+    97 flow_conservation1[8,2]
+                    NS             0            -0             =  -0.000227273 
+    98 flow_conservation1[8,3]
+                    NS             0            -0             =  -0.000227273 
+    99 flow_conservation1[8,4]
+                    NS             0            -0             =  -0.000227273 
+   100 flow_conservation1[8,5]
+                    NS             0            -0             =         < eps
+   101 flow_conservation1[9,1]
+                    NS             0            -0             =         < eps
+   102 flow_conservation1[9,2]
+                    NS             0            -0             =         < eps
+   103 flow_conservation1[9,3]
+                    NS             0            -0             =         < eps
+   104 flow_conservation1[9,4]
+                    NS             0            -0             =         < eps
+   105 flow_conservation1[9,5]
+                    NS             0            -0             =         < eps
+   106 flow_conservation1[10,1]
+                    NS             0            -0             =         < eps
+   107 flow_conservation1[10,2]
+                    NS             0            -0             =         < eps
+   108 flow_conservation1[10,3]
+                    NS             0            -0             =         < eps
+   109 flow_conservation1[10,4]
+                    NS             0            -0             =         < eps
+   110 flow_conservation1[10,5]
+                    NS             0            -0             =         < eps
+   111 flow_conservation2[1,1]
+                    NS           -35           -35             =  -0.000227273 
+   112 flow_conservation2[1,2]
+                    NS             0            -0             =  -0.000227273 
+   113 flow_conservation2[1,3]
+                    NS           -80           -80             =  -0.000227273 
+   114 flow_conservation2[1,4]
+                    NS           -25           -25             =  -0.000227273 
+   115 flow_conservation2[1,5]
+                    NS           -50           -50             =  -0.000227273 
+   116 flow_conservation2[2,1]
+                    NS          -200          -200             =  -0.000227273 
+   117 flow_conservation2[2,2]
+                    NS           -70           -70             =  -0.000227273 
+   118 flow_conservation2[2,3]
+                    NS          -100          -100             =  -0.000227273 
+   119 flow_conservation2[2,4]
+                    NS           -25           -25             =  -0.000227273 
+   120 flow_conservation2[2,5]
+                    NS             0            -0             =  -0.000227273 
+   121 flow_conservation2[3,1]
+                    NS             0            -0             =  -0.000227273 
+   122 flow_conservation2[3,2]
+                    NS          -150          -150             =  -0.000227273 
+   123 flow_conservation2[3,3]
+                    NS             0            -0             =  -0.000227273 
+   124 flow_conservation2[3,4]
+                    NS           -25           -25             =  -0.000227273 
+   125 flow_conservation2[3,5]
+                    NS          -100          -100             =  -0.000227273 
+   126 flow_conservation2[4,1]
+                    NS          -600          -600             =  -0.000227273 
+   127 flow_conservation2[4,2]
+                    NS          -300          -300             =  -0.000227273 
+   128 flow_conservation2[4,3]
+                    NS             0            -0             =  -0.000227273 
+   129 flow_conservation2[4,4]
+                    NS           -25           -25             =  -0.000227273 
+   130 flow_conservation2[4,5]
+                    NS           -75           -75             =  -0.000227273 
+   131 flow_conservation2[5,1]
+                    NS          -200          -200             =  -0.000227273 
+   132 flow_conservation2[5,2]
+                    NS             0            -0             =  -0.000227273 
+   133 flow_conservation2[5,3]
+                    NS          -210          -210             =  -0.000227273 
+   134 flow_conservation2[5,4]
+                    NS           -25           -25             =  -0.000227273 
+   135 flow_conservation2[5,5]
+                    NS          -200          -200             =  -0.000227273 
+   136 flow_conservation2[6,1]
+                    NS           -50           -50             =  -0.000227273 
+   137 flow_conservation2[6,2]
+                    NS             0            -0             =  -0.000227273 
+   138 flow_conservation2[6,3]
+                    NS           -85           -85             =  -0.000227273 
+   139 flow_conservation2[6,4]
+                    NS             0            -0             =  -0.000227273 
+   140 flow_conservation2[6,5]
+                    NS           -45           -45             =  -0.000227273 
+   141 flow_conservation2[7,1]
+                    NS           -40           -40             =  -0.000227273 
+   142 flow_conservation2[7,2]
+                    NS           -60           -60             =  -0.000227273 
+   143 flow_conservation2[7,3]
+                    NS           -50           -50             =  -0.000227273 
+   144 flow_conservation2[7,4]
+                    NS             0            -0             =  -0.000227273 
+   145 flow_conservation2[7,5]
+                    NS          -300          -300             =  -0.000227273 
+   146 flow_conservation2[8,1]
+                    NS          -300          -300             =  -0.000227273 
+   147 flow_conservation2[8,2]
+                    NS           -90           -90             =  -0.000227273 
+   148 flow_conservation2[8,3]
+                    NS           -20           -20             =  -0.000227273 
+   149 flow_conservation2[8,4]
+                    NS           -60           -60             =  -0.000227273 
+   150 flow_conservation2[8,5]
+                    NS             0            -0             =         < eps
+   151 flow_conservation2[9,1]
+                    NS             0            -0             =         < eps
+   152 flow_conservation2[9,2]
+                    NS          -100          -100             =         < eps
+   153 flow_conservation2[9,3]
+                    NS          -100          -100             =         < eps
+   154 flow_conservation2[9,4]
+                    NS           -60           -60             =         < eps
+   155 flow_conservation2[9,5]
+                    NS           -20           -20             =         < eps
+   156 flow_conservation2[10,1]
+                    NS             0            -0             =         < eps
+   157 flow_conservation2[10,2]
+                    NS           -20           -20             =         < eps
+   158 flow_conservation2[10,3]
+                    NS          -100          -100             =         < eps
+   159 flow_conservation2[10,4]
+                    NS           -60           -60             =         < eps
+   160 flow_conservation2[10,5]
+                    NS          -250          -250             =         < eps
+   161 maxliv       B       0.633864                             
+   162 Minmax[1,1]  B      0.0988636            -0               
+   163 Minmax[1,2]  NL             0            -0                       < eps
+   164 Minmax[1,3]  B       0.203295            -0               
+   165 Minmax[1,4]  NL             0            -0                       < eps
+   166 Minmax[1,5]  NL             0            -0                       < eps
+   167 Minmax[1,6]  NL             0            -0                       < eps
+   168 Minmax[1,7]  B          0.095            -0               
+   169 Minmax[1,8]  NL             0            -0                    0.227273 
+   170 Minmax[1,9]  B              0            -0               
+   171 Minmax[1,10] B              0            -0               
+   172 Minmax[2,1]  B       0.133864            -0               
+   173 Minmax[2,2]  B       0.131913            -0               
+   174 Minmax[2,3]  B           0.25            -0               
+   175 Minmax[2,4]  NL             0            -0                       < eps
+   176 Minmax[2,5]  B              0            -0               
+   177 Minmax[2,6]  B              0            -0               
+   178 Minmax[2,7]  NL             0            -0                       < eps
+   179 Minmax[2,8]  NL             0            -0                    0.272727 
+   180 Minmax[2,9]  NL             0            -0                       < eps
+   181 Minmax[2,10] NL             0            -0                       < eps
+   182 Minmax[3,1]  B      0.0538636            -0               
+   183 Minmax[3,2]  B          0.095            -0               
+   184 Minmax[3,3]  B          0.095            -0               
+   185 Minmax[3,4]  B          0.095            -0               
+   186 Minmax[3,5]  NL             0            -0                       < eps
+   187 Minmax[3,6]  NL             0            -0                       < eps
+   188 Minmax[3,7]  NL             0            -0                       < eps
+   189 Minmax[3,8]  NL             0            -0                    0.227273 
+   190 Minmax[3,9]  B           0.01            -0               
+   191 Minmax[3,10] NL             0            -0                       < eps
+   192 Minmax[4,1]  B           0.32            -0               
+   193 Minmax[4,2]  B           0.27            -0               
+   194 Minmax[4,3]  B           0.22            -0               
+   195 Minmax[4,4]  B           0.17            -0               
+   196 Minmax[4,5]  B           0.12            -0               
+   197 Minmax[4,6]  B           0.12            -0               
+   198 Minmax[4,7]  B           0.12            -0               
+   199 Minmax[4,8]  NL             0            -0                    0.113636 
+   200 Minmax[4,9]  B          0.212            -0               
+   201 Minmax[4,10] B          0.092            -0               
+   202 Minmax[5,1]  B       0.472338            -0               
+   203 Minmax[5,2]  B       0.633864            -0               
+   204 Minmax[5,3]  B       0.491006            -0               
+   205 Minmax[5,4]  B       0.395714            -0               
+   206 Minmax[5,5]  B           0.11            -0               
+   207 Minmax[5,6]  B       0.392857            -0               
+   208 Minmax[5,7]  NL             0            -0                    0.159091 
+   209 Minmax[5,8]  B              0            -0               
+   210 Minmax[5,9]  NL             0            -0                       < eps
+   211 Minmax[5,10] NL             0            -0                       < eps
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 w            B       0.633864                             
+     2 x[1,1]       NL             0             0                       < eps
+     3 x[1,2]       NL             0             0                       < eps
+     4 x[1,3]       NL             0             0                       < eps
+     5 x[1,4]       B        118.068             0               
+     6 x[1,5]       B        286.932             0               
+     7 x[2,1]       B        101.136             0               
+     8 x[2,2]       B        67.6591             0               
+     9 x[2,3]       B        141.136             0               
+    10 x[2,4]       NL             0             0                       < eps
+    11 x[2,5]       B        113.068             0               
+    12 x[3,1]       B        203.295             0               
+    13 x[3,2]       B        291.705             0               
+    14 x[3,3]       NL             0             0                       < eps
+    15 x[3,4]       NL             0             0                       < eps
+    16 x[3,5]       B              0             0               
+    17 x[4,1]       B        396.705             0               
+    18 x[4,2]       NL             0             0                       < eps
+    19 x[4,3]       NL             0             0                       < eps
+    20 x[4,4]       NL             0             0                       < eps
+    21 x[4,5]       B        8.29545             0               
+    22 x[5,1]       B            200             0               
+    23 x[5,2]       NL             0             0                       < eps
+    24 x[5,3]       B            115             0               
+    25 x[5,4]       NL             0             0                       < eps
+    26 x[5,5]       NL             0             0                       < eps
+    27 x[6,1]       B             50             0               
+    28 x[6,2]       NL             0             0                       < eps
+    29 x[6,3]       B             85             0               
+    30 x[6,4]       NL             0             0                       < eps
+    31 x[6,5]       B            243             0               
+    32 x[7,1]       B            135             0               
+    33 x[7,2]       B             60             0               
+    34 x[7,3]       B             50             0               
+    35 x[7,4]       NL             0             0                       < eps
+    36 x[7,5]       B             25             0               
+    37 x[8,1]       B            205             0               
+    38 x[8,2]       B             90             0               
+    39 x[8,3]       B             20             0               
+    40 x[8,4]       NL             0             0                       < eps
+    41 x[8,5]       NL             0             0                 0.000227273 
+    42 x[9,1]       NL             0             0                       < eps
+    43 x[9,2]       B            100             0               
+    44 x[9,3]       B            110             0               
+    45 x[9,4]       B            166             0               
+    46 x[9,5]       B             20             0               
+    47 x[10,1]      NL             0             0                       < eps
+    48 x[10,2]      B             20             0               
+    49 x[10,3]      B             90             0               
+    50 x[10,4]      NL             0             0                       < eps
+    51 x[10,5]      B            250             0               
+    52 y[1,1]       B            535             0               
+    53 y[1,2]       B            600             0               
+    54 y[1,3]       B            580             0               
+    55 y[1,4]       B        156.932             0               
+    56 y[1,5]       B        113.068             0               
+    57 y[2,1]       B        633.864             0               
+    58 y[2,2]       B        602.341             0               
+    59 y[2,3]       B        538.864             0               
+    60 y[2,4]       B        181.932             0               
+    61 y[2,5]       B              0             0               
+    62 y[3,1]       B        430.568             0               
+    63 y[3,2]       B        460.636             0               
+    64 y[3,3]       B        538.864             0               
+    65 y[3,4]       B        206.932             0               
+    66 y[3,5]       B            100             0               
+    67 y[4,1]       B        633.864             0               
+    68 y[4,2]       B        760.636             0               
+    69 y[4,3]       B        538.864             0               
+    70 y[4,4]       B        231.932             0               
+    71 y[4,5]       B        166.705             0               
+    72 y[5,1]       B        633.864             0               
+    73 y[5,2]       B        760.636             0               
+    74 y[5,3]       B        633.864             0               
+    75 y[5,4]       B        256.932             0               
+    76 y[5,5]       B        366.705             0               
+    77 y[6,1]       B        633.864             0               
+    78 y[6,2]       B        760.636             0               
+    79 y[6,3]       B        633.864             0               
+    80 y[6,4]       B        256.932             0               
+    81 y[6,5]       B        168.705             0               
+    82 y[7,1]       B        538.864             0               
+    83 y[7,2]       B        760.636             0               
+    84 y[7,3]       B        633.864             0               
+    85 y[7,4]       B        256.932             0               
+    86 y[7,5]       B        443.705             0               
+    87 y[8,1]       B        633.864             0               
+    88 y[8,2]       B        760.636             0               
+    89 y[8,3]       B        633.864             0               
+    90 y[8,4]       B        316.932             0               
+    91 y[8,5]       B        443.705             0               
+    92 y[9,1]       B        633.864             0               
+    93 y[9,2]       B        760.636             0               
+    94 y[9,3]       B        623.864             0               
+    95 y[9,4]       B        210.932             0               
+    96 y[9,5]       B        443.705             0               
+    97 y[10,1]      B        633.864             0               
+    98 y[10,2]      B        760.636             0               
+    99 y[10,3]      B        633.864             0               
+   100 y[10,4]      B        270.932             0               
+   101 y[10,5]      B        443.705             0               
+   102 z[1,1]       B            500             0               
+   103 z[1,2]       B            600             0               
+   104 z[1,3]       B            500             0               
+   105 z[1,4]       B        131.932             0               
+   106 z[1,5]       B        63.0682             0               
+   107 z[2,1]       B        433.864             0               
+   108 z[2,2]       B        532.341             0               
+   109 z[2,3]       B        438.864             0               
+   110 z[2,4]       B        156.932             0               
+   111 z[2,5]       NL             0             0                       < eps
+   112 z[3,1]       B        430.568             0               
+   113 z[3,2]       B        310.636             0               
+   114 z[3,3]       B        538.864             0               
+   115 z[3,4]       B        181.932             0               
+   116 z[3,5]       NL             0             0                       < eps
+   117 z[4,1]       B        33.8636             0               
+   118 z[4,2]       B        460.636             0               
+   119 z[4,3]       B        538.864             0               
+   120 z[4,4]       B        206.932             0               
+   121 z[4,5]       B        91.7045             0               
+   122 z[5,1]       B        433.864             0               
+   123 z[5,2]       B        760.636             0               
+   124 z[5,3]       B        423.864             0               
+   125 z[5,4]       B        231.932             0               
+   126 z[5,5]       B        166.705             0               
+   127 z[6,1]       B        583.864             0               
+   128 z[6,2]       B        760.636             0               
+   129 z[6,3]       B        548.864             0               
+   130 z[6,4]       B        256.932             0               
+   131 z[6,5]       B        123.705             0               
+   132 z[7,1]       B        498.864             0               
+   133 z[7,2]       B        700.636             0               
+   134 z[7,3]       B        583.864             0               
+   135 z[7,4]       B        256.932             0               
+   136 z[7,5]       B        143.705             0               
+   137 z[8,1]       B        333.864             0               
+   138 z[8,2]       B        670.636             0               
+   139 z[8,3]       B        613.864             0               
+   140 z[8,4]       B        256.932             0               
+   141 z[8,5]       B        443.705             0               
+   142 z[9,1]       B        633.864             0               
+   143 z[9,2]       B        660.636             0               
+   144 z[9,3]       B        523.864             0               
+   145 z[9,4]       B        150.932             0               
+   146 z[9,5]       B        423.705             0               
+   147 z[10,1]      B        633.864             0               
+   148 z[10,2]      B        740.636             0               
+   149 z[10,3]      B        533.864             0               
+   150 z[10,4]      B        210.932             0               
+   151 z[10,5]      B        193.705             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 2.66e-12 on row 80
+        max.rel.err = 1.71e-12 on row 75
+        High quality
+
+KKT.PB: max.abs.err = 4.58e-15 on column 61
+        max.rel.err = 4.58e-15 on column 61
+        High quality
+
+KKT.DE: max.abs.err = 2.22e-16 on column 1
+        max.rel.err = 7.40e-17 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 1.35e-15 on row 180
+        max.rel.err = 1.35e-15 on row 180
+        High quality
+
+End of output

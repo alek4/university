@@ -1,0 +1,129 @@
+Problem:    produzione
+Rows:       37
+Columns:    48
+Non-zeros:  142
+Status:     OPTIMAL
+Objective:  z = 5446500 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 max_cap_mag[1]
+                    B              0                        2500 
+     2 max_cap_mag[2]
+                    B              0                        2500 
+     3 max_cap_mag[3]
+                    B              0                        2500 
+     4 max_cap_mag[4]
+                    B            800                        2500 
+     5 max_cap_mag[5]
+                    B           1650                        2500 
+     6 max_cap_mag[6]
+                    B           2100                        2500 
+     7 max_cap_mag[7]
+                    B           1900                        2500 
+     8 max_cap_mag[8]
+                    B              0                        2500 
+     9 max_cap_mag[9]
+                    B              0                        2500 
+    10 max_cap_mag[10]
+                    B            100                        2500 
+    11 max_cap_mag[11]
+                    B            500                        2500 
+    12 max_cap_mag[12]
+                    B              0                        2500 
+    13 fcc[2,X]     NS          1700          1700             =           140 
+    14 fcc[2,Y]     NS           400           400             =           245 
+    15 fcc[3,X]     NS          1800          1800             =           140 
+    16 fcc[3,Y]     NS           500           500             =           230 
+    17 fcc[4,X]     NS          1800          1800             =           150 
+    18 fcc[4,Y]     NS           600           600             =           230 
+    19 fcc[5,X]     NS          1900          1900             =           175 
+    20 fcc[5,Y]     NS           700           700             =           255 
+    21 fcc[6,X]     NS          2300          2300             =           195 
+    22 fcc[6,Y]     NS           800           800             =           275 
+    23 fcc[7,X]     NS          2500          2500             =           205 
+    24 fcc[7,Y]     NS           900           900             =           285 
+    25 fcc[8,X]     NS          2500          2500             =           215 
+    26 fcc[8,Y]     NS          1000          1000             =           295 
+    27 fcc[9,X]     NS          2000          2000             =           135 
+    28 fcc[9,Y]     NS           800           800             =           225 
+    29 fcc[10,X]    NS          1800          1800             =           145 
+    30 fcc[10,Y]    NS           800           800             =           235 
+    31 fcc[11,X]    NS          1700          1700             =           160 
+    32 fcc[11,Y]    NS           800           800             =           260 
+    33 fcc[12,X]    NS          2000          2000             =           195 
+    34 fcc[12,Y]    NS          1000          1000             =           295 
+    35 fcc1[X]      NS          1800          1800             =           125 
+    36 fcc1[Y]      NS           500           500             =           240 
+    37 z            B     5.4465e+06                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[2,X]       B           1700             0          2300 
+     2 x[2,Y]       B            400             0           900 
+     3 x[3,X]       B           1800             0          2500 
+     4 x[3,Y]       B            500             0          1000 
+     5 x[4,X]       B           2500             0          2500 
+     6 x[4,Y]       B            700             0          1000 
+     7 x[5,X]       NU          2450             0          2450           -45 
+     8 x[5,Y]       NU          1000             0          1000           -30 
+     9 x[6,X]       NU          2550             0          2550           -75 
+    10 x[6,Y]       NU          1000             0          1000           -55 
+    11 x[7,X]       NU          2300             0          2300          -105 
+    12 x[7,Y]       NU           900             0           900           -70 
+    13 x[8,X]       NU          1200             0          1200           -45 
+    14 x[8,Y]       NU           400             0           400           -55 
+    15 x[9,X]       B           2000             0          2200 
+    16 x[9,Y]       B            800             0          1000 
+    17 x[10,X]      B           1800             0          2500 
+    18 x[10,Y]      B            900             0          1000 
+    19 x[11,X]      B           1900             0          2500 
+    20 x[11,Y]      NU          1000             0          1000           -20 
+    21 x[12,X]      NU          1800             0          1800           -20 
+    22 x[12,Y]      NU           700             0           700           -45 
+    23 x[1,X]       B           1800             0          2400 
+    24 x[1,Y]       B            500             0          1000 
+    25 y[1,X]       NL             0             0                          30 
+    26 y[1,Y]       NL             0             0                          40 
+    27 y[2,X]       NL             0             0                          45 
+    28 y[2,Y]       NL             0             0                          60 
+    29 y[3,X]       NL             0             0                          30 
+    30 y[3,Y]       NL             0             0                          40 
+    31 y[4,X]       B            700             0               
+    32 y[4,Y]       B            100             0               
+    33 y[5,X]       B           1250             0               
+    34 y[5,Y]       B            400             0               
+    35 y[6,X]       B           1500             0               
+    36 y[6,Y]       B            600             0               
+    37 y[7,X]       B           1300             0               
+    38 y[7,Y]       B            600             0               
+    39 y[8,X]       NL             0             0                          90 
+    40 y[8,Y]       NL             0             0                          80 
+    41 y[9,X]       NL             0             0                           5 
+    42 y[9,Y]       NL             0             0                           5 
+    43 y[10,X]      NL             0             0                          10 
+    44 y[10,Y]      B            100             0               
+    45 y[11,X]      B            200             0               
+    46 y[11,Y]      B            300             0               
+    47 y[12,X]      NL             0             0                         235 
+    48 y[12,Y]      NL             0             0                         335 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
