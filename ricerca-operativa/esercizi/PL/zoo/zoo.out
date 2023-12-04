@@ -1,0 +1,77 @@
+Problem:    zoo
+Rows:       17
+Columns:    12
+Non-zeros:  38
+Status:     OPTIMAL
+Objective:  z = 1101.866667 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Composizione[1]
+                    NS             0            -0             =         < eps
+     2 Composizione[2]
+                    NS             0            -0             =         < eps
+     3 Composizione[3]
+                    NS             0            -0             =         < eps
+     4 Composizione[4]
+                    NS             0            -0             =         < eps
+     5 Composizione[5]
+                    NS             0            -0             =           -84 
+     6 Composizione[6]
+                    NS             0            -0             =      -2.66667 
+     7 Composizione[7]
+                    NS             0            -0             =          -5.6 
+     8 Composizione[8]
+                    NS             0            -0             =            -8 
+     9 Fabbisogno_Complessivo[1]
+                    B        77.7467          13.1               
+    10 Fabbisogno_Complessivo[2]
+                    B          12.18           5.4               
+    11 Fabbisogno_Complessivo[3]
+                    B        72.7333          22.8               
+    12 Fabbisogno_Complessivo[4]
+                    B        113.307          58.4               
+    13 Fabbisogno_Complessivo[5]
+                    NL           3.4           3.4                          84 
+    14 Fabbisogno_Complessivo[6]
+                    NL           6.7           6.7                     2.66667 
+    15 Fabbisogno_Complessivo[7]
+                    NL             8             8                         5.6 
+    16 Fabbisogno_Complessivo[8]
+                    NL          94.2          94.2                           8 
+    17 z            B        1101.87                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B             68             0               
+     2 x[2]         B          243.6             0               
+     3 x[3]         B             32             0               
+     4 x[4]         B        44.6667             0               
+     5 y[1]         B        77.7467             0               
+     6 y[2]         B          12.18             0               
+     7 y[3]         B        72.7333             0               
+     8 y[4]         B        113.307             0               
+     9 y[5]         B            3.4             0               
+    10 y[6]         B            6.7             0               
+    11 y[7]         B              8             0               
+    12 y[8]         B           94.2             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

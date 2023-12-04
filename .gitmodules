@@ -1,0 +1,3 @@
+[submodule "sistemi-embedded/esame"]
+	path = sistemi-embedded/esame
+	url = https://github.com/alek4/SmartDrinks
